@@ -36,12 +36,12 @@ namespace Triangle.Compiler.SyntacticAnalyzer
 
                 _currentSpelling.Clear();
 
-                var startLocation = _source.Location;
+                //var startLocation = _source.Location;
                 var kind = ScanToken();
-                var endLocation = _source.Location;
-                var position = new SourcePosition(startLocation, endLocation);
+                //var endLocation = _source.Location;
+                //var position = new SourcePosition(startLocation, endLocation);
 
-                var token = new Token(kind, _currentSpelling.ToString(), position);
+                var token = new Token(kind, _currentSpelling.ToString());
                 if (_debug)
                 {
                     Console.WriteLine(token);

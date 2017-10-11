@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 
+
 namespace Triangle.AbstractMachine.Interpreter
 {
     public class Interpreter
@@ -711,7 +712,7 @@ namespace Triangle.AbstractMachine.Interpreter
          */
         public static void Main(string[] args)
         {
-            Console.WriteLine("********** TAM Interpreter (C# Version 3.0) **********");
+            Console.WriteLine("********** TAM Interpreter (.NET CORE) **********");
 
             var objectName = args.Length == 1 ? args[0] : "obj.tam";
             var interpreter = new Interpreter();
