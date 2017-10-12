@@ -1,6 +1,5 @@
-
-Microsoft Visual Studio Solution File, Format Version 15.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle.AbstractMachine", "Triangle.AbstractMachine\Triangle.AbstractMachine.csproj", "{A83E38A4-6F39-41B0-AAD2-8509754589E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle.Compiler", "Triangle.Compiler\Triangle.Compiler.csproj", "{FCB0186D-7507-4096-8496-3C238677E156}"
