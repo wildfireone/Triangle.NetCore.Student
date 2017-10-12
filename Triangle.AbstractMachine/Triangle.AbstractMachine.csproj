@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp1.1.1</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
     <PackageVersion>1</PackageVersion>
     <Authors>Deryck Brown, (.net Core port John Isaacs)</Authors>
